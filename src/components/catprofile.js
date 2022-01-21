@@ -2,14 +2,20 @@ import React from 'react';
 
 function catprofile() {
   return <div className='catprofile'>
+            <div className='block1'>
             <h1 className='catprofile--names'>Petey and Patches</h1>
             <h2 className= 'catprofile--description'>Approx. 6 months, Bonded Pair, Male & Female, Very Playful, Snuggly, Shy, Curiois, and Sweet</h2>
             <h4 className='catprofile--rescue'>Help our Rescue! www.felinecafeottawa.com</h4>
-            <img src="" alt="Cat profile pic"></img>
-            <h3 className='catprofile--generalcare'>General care & Profile status:</h3>
-            <p className='catprofile--specialneeds'>Special Needs: none</p>
+            </div>
+            <div className='block2'>
+            <img className="catprofile--img" src="./JAS02790.jpg" alt="Cat profile pic"></img>
+            </div>
+            <div className='block3'>   
+            <h3 className='catprofile--generalcare'>General care & Profile status</h3>
+            <p className='catprofile--specialneeds'>Special Needs: none as this gets longer we should see that the image should make more room for the text in the fields i hope</p>
             <p className='catprofile--adoptionfee'>Adoption fee: To be determined</p>
-            <div className='catprofile--gird'>
+            </div>
+            <div className='catprofile--grid'>
                 <div className='checkmark-1'>Yes</div><div className='healthexam'>Health Exam</div>
                 <div className='checkmark-2'>No</div><div className='neauter'>Neauter/Spay</div>
                 <div className='checkmark-3'>Yes</div><div className='vaccines'>Vaccines (Rabies & FVRCP)</div>
@@ -20,7 +26,7 @@ function catprofile() {
                 <div className='checkmark-8'>Yes</div><div className='felv'>FELV Tested</div>
             </div>
             
-            <footer>If you are able to donate to help out these little felines, you can click the donate button located on this page or send an e-transfer to felinecafefoundation@gmail.com</footer>
+            <footer className='foot'>If you are able to donate to help out these little felines, you can click the donate button located on this page or send an e-transfer to felinecafefoundation@gmail.com</footer>
         </div>;
 }
 

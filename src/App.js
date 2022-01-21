@@ -1,10 +1,9 @@
 import './App.css';
-import CatProfile from './catprofile.js'
+import CatProfile from './components/catprofile.js'
 
 function App() {
   return (
     <div className="App">
-      Hello World!
       <CatProfile />
     </div>
   );

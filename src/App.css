@@ -7,26 +7,32 @@ body{
 }
 
 .catprofile {
+    margin: 1rem;
     display: flex;
-    width: 600px;
+    width: 550px;
     flex-wrap: wrap;
     font-family: Inter, sans-serif;
     background-color: hsl(117, 32%, 73%);
     border-radius: 5px;
+    
 }
 
 .block1 {
     display: flex;
-    width: 50%;
+    width: 45%;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    flex-basis:auto;
+    padding-left: 16px;
+    
 }
 
 .block2 {
-    width: 50%;
+    width: 52%;
     overflow: hidden;
     border-radius: 5px;
+
 }
 
 .block3 {
@@ -37,6 +43,7 @@ body{
     height: 300px;
     width: auto;
     margin-left: -5rem;
+    border-radius: 5px;
    
 }
 
@@ -56,7 +63,7 @@ font-size: 15px;
 }
 
 .catprofile--generalcare {
-
+    text-align: center;
 }
 
 .catprofile--specialneeds {
@@ -71,20 +78,27 @@ font-size: 15px;
 .catprofile--grid{
 width: 1fr;
 display: grid;
-grid-template-columns: repeat(1, 1fr 3fr);
+grid-template-columns: repeat(1, 2rem 3fr);
 text-align: center;
-padding: .5rem;
+align-content: auto;
+padding: .5rem .1rem;
+grid-gap: 1px;
 }
 
 .catprofile--grid > div {
+    
     border-color: black;
-    border: 1px solid;
-    border-radius: 5px;
+    border: 2px solid;
+    border-radius: 1px;
+    margin-bottom: 5px;
 }
+
 .foot {
     display: flex;
     text-justify: center;
     text-align: center;
     font-size: 15px;
     padding: 1rem;
+    background-color: hsl(117, 32%, 58%);
+    border-radius: 0 0 5px 5px;
 }
